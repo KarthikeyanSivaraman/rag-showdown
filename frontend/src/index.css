@@ -1,0 +1,17 @@
+/* Minimal reset -- App.css owns the actual page styling for this
+   single-page demo (default vite template's #root width/border rules were
+   removed since they fought with App.css's full-width gradient layout). */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}

@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "company": "Fernwood Goods (fictional DTC subscription-box company)",
+    "queue": "support tickets, synthetic",
+    "count": 29,
+    "note": "Ground truth (which tickets are genuinely about a shipping delay) lives in data/answer_key.md, not in this file -- the pipeline should not be able to read the label off the data."
+  },
+  "tickets": [
+    {
+      "id": "T001",
+      "subject": "Charged twice this month",
+      "body": "I just noticed two separate charges of $34.99 on my card this billing cycle, both labeled Fernwood Goods. I only have one active subscription. Can you refund the duplicate?"
+    },
+    {
+      "id": "T002",
+      "subject": "Order #4471 way behind schedule",
+      "body": "The label for my order was created five days ago but the carrier tracking hasn't moved since then. Package is late and I really need it before the weekend for a gift."
+    },
+    {
+      "id": "T003",
+      "subject": "Password reset email never arrives",
+      "body": "I've requested a password reset three times in the last hour and nothing shows up in my inbox or spam folder. Can someone manually reset it for me?"
+    },
+    {
+      "id": "T004",
+      "subject": "Starter kit still not here",
+      "body": "Ordered the starter kit two weeks ago and delivery is taking forever. The tracking page still just says 'in transit' with no city or date attached."
+    },
+    {
+      "id": "T005",
+      "subject": "Dashboard dark mode request",
+      "body": "Would you consider adding a dark mode to the account dashboard? Staring at the bright white background at night is rough."
+    },
+    {
+      "id": "T006",
+      "subject": "Need to update shipping address before it ships",
+      "body": "I just moved apartments and my next box is scheduled to go out Friday. Can you update my shipping address before it leaves the warehouse? Same building, new unit number."
+    },
+    {
+      "id": "T007",
+      "subject": "Shipment delayed, no update in over a week",
+      "body": "The shipping page said my order was delayed, apparently due to weather, but that was ten days ago and there's been nothing since. Getting worried it's stuck somewhere."
+    },
+    {
+      "id": "T008",
+      "subject": "Cancel and refund my subscription",
+      "body": "I've decided I don't need the monthly subscription anymore. Please cancel it and let me know if a partial refund for this month is possible."
+    },
+    {
+      "id": "T009",
+      "subject": "Blender motor died after 3 uses",
+      "body": "The blender that came in my last box stopped working entirely after only three uses. It just hums and doesn't spin. This seems like a defect, not normal wear."
+    },
+    {
+      "id": "T010",
+      "subject": "12 days and still no package",
+      "body": "My order still hasn't arrived. It's been 12 days since I placed it and the tracking page just says 'pending' with no movement at all. Where is it?"
+    },
+    {
+      "id": "T011",
+      "subject": "Wrong color sent",
+      "body": "I ordered the kettle in black and received the white one instead. Everything else in the box was correct, just the wrong color on this one item."
+    },
+    {
+      "id": "T012",
+      "subject": "How do I cancel my monthly plan?",
+      "body": "I can't find the cancel button anywhere in account settings. Can you point me to it or cancel it on your end?"
+    },
+    {
+      "id": "T013",
+      "subject": "Box never showed up",
+      "body": "Tracking hasn't updated in over a week and the box never showed up. I'm starting to think it's lost somewhere between the warehouse and here."
+    },
+    {
+      "id": "T014",
+      "subject": "Promo code not applying",
+      "body": "I'm trying to use the code SAVE20 at checkout but it says invalid even though the email said it's valid through the end of the month."
+    },
+    {
+      "id": "T015",
+      "subject": "Love the new packaging!",
+      "body": "Just wanted to say the redesigned packaging in this month's box is gorgeous. The recyclable insert is a really nice touch too."
+    },
+    {
+      "id": "T016",
+      "subject": "Mobile app crashes on settings tab",
+      "body": "Every time I tap into the settings tab on the iOS app it crashes immediately. Happens consistently, app version 3.2.1."
+    },
+    {
+      "id": "T017",
+      "subject": "Item arrived cracked",
+      "body": "The package showed up on time but the ceramic mug inside was cracked down the middle. Must have happened in transit. Can you send a replacement?"
+    },
+    {
+      "id": "T018",
+      "subject": "Second late order in a row",
+      "body": "The carrier says my shipment is delayed in transit, no new scan in six days. This is the second month in a row my order has been late -- what's going on?"
+    },
+    {
+      "id": "T019",
+      "subject": "Export order history as CSV",
+      "body": "Is there a way to export my full order history as a CSV file? I'd like it for my own budgeting spreadsheet."
+    },
+    {
+      "id": "T020",
+      "subject": "Card declined but still charged",
+      "body": "Checkout told me my card was declined, but I can see the charge on my statement anyway. Did the order actually go through?"
+    },
+    {
+      "id": "T021",
+      "subject": "Do you ship to Canada?",
+      "body": "Thinking about subscribing but I'm based in Toronto. Do you currently ship to Canadian addresses, and is there an extra customs fee?"
+    },
+    {
+      "id": "T022",
+      "subject": "Gift packaging option",
+      "body": "Would love a plain gift-wrap packaging option at checkout for boxes I'm sending to someone else, without the invoice showing the price."
+    },
+    {
+      "id": "T023",
+      "subject": "2FA code never arrives via SMS",
+      "body": "I have two-factor authentication turned on and the SMS code never arrives. I've tried resending it five times. Can you disable 2FA on my account temporarily?"
+    },
+    {
+      "id": "T024",
+      "subject": "Merge two accounts",
+      "body": "I accidentally signed up twice with two different emails. Can you merge the accounts so my subscription history is in one place?"
+    },
+    {
+      "id": "T025",
+      "subject": "Is the coffee grinder dishwasher safe?",
+      "body": "Quick question before I use it -- is the burr grinder from last month's box dishwasher safe, or hand-wash only?"
+    },
+    {
+      "id": "T026",
+      "subject": "Refund hasn't posted to my bank",
+      "body": "You confirmed my refund ten days ago but I still don't see it in my bank account. My bank says they have no record of it. Can you check the transaction ID?"
+    },
+    {
+      "id": "T027",
+      "subject": "Great support experience",
+      "body": "Just wanted to say the support agent I chatted with yesterday resolved my billing issue in about five minutes. Really appreciated the quick, friendly help."
+    },
+    {
+      "id": "T028",
+      "subject": "Checkout page slow on mobile",
+      "body": "The checkout page takes 10-15 seconds to load on my phone every time, both on wifi and cellular. Desktop is fine. Might be worth looking into."
+    },
+    {
+      "id": "T029",
+      "subject": "Package stuck at depot for a week",
+      "body": "My package has been sitting at the local carrier depot for over a week without moving. Extremely frustrated with how slow this delivery has been -- it was supposed to arrive five days ago."
+    }
+  ]
+}
